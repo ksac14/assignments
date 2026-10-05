@@ -1,6 +1,6 @@
 let empHike = new Map<string, number>()
 
-function calculateHike(name: string, baseSalary: number,experience:number , yearEndRating :number) : number {
+function calculateHike(name: string, baseSalary: number,experience:number , yearEndRating :number) : void {
     let variablePay: number = 0;
     let bonus: number = 0;
     
