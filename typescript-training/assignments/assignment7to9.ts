@@ -43,7 +43,7 @@ let count = 0;
 for(let i=0;i<splittedPara.length;i++) {
     if(splittedPara[i] === "Java")
     {
-        console.log(`"Java is there at index ${i}`)
+        console.log(`"Java" is there at index ${i}`)
         count++
     }
 }
